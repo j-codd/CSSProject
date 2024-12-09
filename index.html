@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Teams</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Team Rosters & Player Stats</h1>
+
+    <div class="wrapper">
+        <h2>Select Team(s):</h2>
+        <div class="EastConference">
+        <h4>Eastern Conference</h4>
+        <label><input type="checkbox" value="CLE" id="Cleveland Cavaliers" /> Cleveland Cavaliers</label><br />
+        <label><input type="checkbox" value="BOS" id="Boston Celtics" /> Boston Celtics</label><br />
+        <label><input type="checkbox" value="ORL" id="Orlando Magic" /> Orlando Magic</label><br />
+        <label><input type="checkbox" value="NYK" id="New York Knicks" /> New York Knicks</label><br />
+        <label><input type="checkbox" value="ATL" id="Atlanta Hawks" /> Atlanta Hawks</label><br />
+        <label><input type="checkbox" value="MIA" id="Miami Heat" /> Miami Heat</label><br />
+        <label><input type="checkbox" value="MIL" id="Milwaukee Bucks" /> Milwaukee Bucks</label><br />
+        <label><input type="checkbox" value="BRK" id="Brooklyn Nets" /> Brooklyn Nets</label><br />
+        <label><input type="checkbox" value="IND" id="Indiana Pacers" /> Indiana Pacers</label><br />
+        <label><input type="checkbox" value="CHI" id="Chicago Bulls" /> Chicago Bulls</label><br />
+        <label><input type="checkbox" value="DET" id="Detroit Pistons" /> Detroit Pistons</label><br />
+        <label><input type="checkbox" value="PHI" id="Philadelphia 76ers" /> Philadelphia 76ers</label><br />
+        <label><input type="checkbox" value="TOR" id="Toronto Raptors" /> Toronto Raptors</label><br />
+        <label><input type="checkbox" value="CHO" id="Charlotte Hornets" /> Charlotte Hornets</label><br />
+        <label><input type="checkbox" value="WAS" id="Washington Wizards" /> Washington Wizards</label><br />
+
+        <button id="getRosterButton">Get Team Roster</button><br />
+    </div>
+    <div class="EastConference">
+        <h4>Western Conference</h4>
+        <label><input type="checkbox" value="OKC" id="Oklahoma City Thunder" /> Oklahoma City Thunder</label><br />
+        <label><input type="checkbox" value="MEM" id="Memphis Grizzlies" /> Memphis Grizzlies</label><br />
+        <label><input type="checkbox" value="HOU" id="Houston Rockets" /> Houston Rockets</label><br />
+        <label><input type="checkbox" value="DAL" id="Dallas Mavericks" /> Dallas Mavericks</label><br />
+        <label><input type="checkbox" value="GSW" id="Golden State Warriors" /> Golden State Warriors</label><br />
+        <label><input type="checkbox" value="LAC" id="LA Clipppers" /> LA Clipppers</label><br />
+        <label><input type="checkbox" value="DEN" id="Denver Nuggets" /> Denver Nuggets</label><br />
+        <label><input type="checkbox" value="MIN" id="Minnesota Timberwolves" /> Minnesota Timberwolves</label><br />
+        <label><input type="checkbox" value="PHO" id="Pheonix Suns" /> Pheonix Suns</label><br />
+        <label><input type="checkbox" value="SAS" id="San Antonio Spurs" /> San Antonio Spurs</label><br />
+        <label><input type="checkbox" value="SAC" id="Sacramento Kings" /> Sacramento Kings</label><br />
+        <label><input type="checkbox" value="POR" id="Portland Trail Blazers" /> Portland Trail Blazers</label><br />
+        <label><input type="checkbox" value="UTA" id="Utah Jazz" /> Utah Jazz</label><br />
+        <label><input type="checkbox" value="NOP" id="New Orleans Pelicans" /> New Orleans Pelicans</label><br />
+        <label><input type="checkbox" value="LAL" id="Los Angeles Lakers" /> Los Angeles Lakers</label><br />
+    </div>
+    <div class="RosterDiv"id="roster"></div>
+    </div><br />
+    
+    <div id="roster"></div>
+    <script src="scripts/script.js" defer></script>
+</body>
+</html>
